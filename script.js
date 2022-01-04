@@ -12,10 +12,10 @@ async function callingAPis(reqType, url, data) {
   }
   
   setInterval(() => {
-    callingAPis("get","http://fortunepreprodapi.infoware.xyz/api").then((data) => {
-        console.log('apicalling'); 
+    callingAPis("get","https://").then((data) => {   //for post req enter payload ex:{id:1,seller:""}
+        console.log(data); 
       });
       
-  }, 1000);
+  }, 2000);
 
 
